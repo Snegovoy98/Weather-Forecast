@@ -1,1 +1,1 @@
-alert('Привет');
+alert('Привет');//Comments(alex@google.com)
