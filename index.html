@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link type="text/css" rel="stylesheet" media="all" href="lib/style.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="style.css" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lessons</title>
 </head>
 <body>
-<h1>H1 teg</h1>
-<span>Text</span>
-<script src="lib/Script.js"></script>
+<div id="current-weather-details">
+    <ul>
+        <li id="current-humidity">--</li>
+        <li id="current-pressure">--</li>
+        <li id="current-temperature">--</li>
+        <li id="current-wind-speed">--</li>
+    </ul>
+    <button id="getWeather" onclick="getWeather()">Get Current Weather!</button>
+</div>
+<p id="weather-summary"></p>
+<script src="script.js"></script>
 </body>
 </html>
